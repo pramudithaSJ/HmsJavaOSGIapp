@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: NurseSubscriber
+Bundle-SymbolicName: NurseSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: nursesubscriber.NurseActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: NurseSubscriber
+Import-Package: freemedicalcheckuppublisher,
+ freeuniformpublisher,
+ hospitalshuttlepiublisher,
+ org.osgi.framework;version="1.3.0",
+ workingshiftpublisher
+Bundle-ActivationPolicy: lazy
+Export-Package: nursesubscriber
