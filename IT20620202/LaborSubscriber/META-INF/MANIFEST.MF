@@ -1,0 +1,13 @@
+zManifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: LaborSubscriber
+Bundle-SymbolicName: LaborSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: laborsubscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: LaborSubscriber
+Import-Package: atmpublisher,
+ cafeteriapublisher,
+ freemedicinepublisher,
+ org.osgi.framework;version="1.3.0",
+ salarypublisher
